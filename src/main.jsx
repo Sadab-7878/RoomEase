@@ -11,25 +11,25 @@ import SignUp from "./components/Auth/SignUp.jsx";
 import PasswordRecovery from "./components/PasswordRecovery.jsx";
 
 const router = createBrowserRouter([
+  // {
+  //   path: "/",
+  //   element: <Home />,
+  // },
+
+  // {
+  //   path: "/login",
+  //   element: <Login />,
+  // },
+
+  // {
+  //   path: "/signup",
+  //   element: <SignUp />,
+  // },
+
   {
     path: "/",
-    element: <Home />,
-  },
-
-  {
-    path: "/login",
-    element: <Login />,
-  },
-
-  {
-    path: "/signup",
-    element: <SignUp />,
-  },
-
-  {
-    path: "/passwordrecovery",
     element: <PasswordRecovery />,
-  }
+  },
 ]);
 
 createRoot(document.getElementById("root")).render(
