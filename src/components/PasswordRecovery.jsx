@@ -54,8 +54,10 @@ const PasswordRecovery = () => {
         </div>
 
         {/* 2 */}
-        <div className="flex items-center justify-center gap-10">
-          <div className="flex flex-col gap-5">
+        <div className="flex items-center justify-center gap-10 ">
+
+          
+          <div className="flex flex-col gap-5 mt-10">
             <p>Forgot password?</p>
 
             <p>Please enter your email to reset the password</p>
@@ -76,7 +78,7 @@ const PasswordRecovery = () => {
               </button>
             </form>
           </div>
-          <div>
+          <div className="mt-10">
             <img src={homepage} alt="homepage" />
           </div>
         </div>
